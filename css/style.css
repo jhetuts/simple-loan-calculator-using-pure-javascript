@@ -1,0 +1,36 @@
+body{
+    padding: 50px 0;
+}
+.hide{
+    display: none !important;
+}
+.show{
+    display: block !important;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5%;
+}
+.card .btn-link{
+    display: block;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    white-space: normal;
+    text-align: left;
+}
+#desired-loan-result{
+    display: none;
+}
+@media(max-width: 767px){
+    .sp-w-100{
+        width: 100%;
+    }
+    .card-header{
+        padding: 0;
+    }
+    .card-body{
+        padding: 0.75rem;
+    }
+}
