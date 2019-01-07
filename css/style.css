@@ -23,6 +23,11 @@ h1{
 #desired-loan-result{
     display: none;
 }
+#loader{
+    display: none;
+    padding: 20px 0;
+    text-align: center;
+}
 @media(max-width: 767px){
     .sp-w-100{
         width: 100%;
